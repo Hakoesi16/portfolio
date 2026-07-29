@@ -45,7 +45,7 @@ const content = {
     ],
     sectionSkills: 'Compétences',
     skillGroups: [
-      { title: 'Mobile', items: ['Flutter', 'Dart', 'UI responsive', 'Intégration backend'] },
+      { title: 'Mobile', items: ['Flutter', 'Dart', 'Intégration backend'] },
       { title: 'Backend', items: ['Node.js', 'Express', 'MongoDB', 'API REST'] },
       { title: 'Automatisation', items: ['n8n', 'Webhooks', 'AI Agents', 'Intégrations'] },
       { title: 'Fondations', items: ['Python', 'Java', 'Assembly x86', 'Git'] },
@@ -107,6 +107,59 @@ const content = {
     contactLead: "Open to internships, entry-level roles, and collaborations on mobile or automation projects.",
     footer: '— Built with React',
   },
+  ar: {
+    nav: { about: 'حول', projects: 'المشاريع', skills: 'المهارات', contact: 'اتصل' },
+    eyebrow: 'متاح للتدريب / وظيفة مبتدئة',
+    heroTitle: <>أقوم ببناء <span className="accent">تطبيقات الجوال</span> و <span className="accent">الأتمتة</span> التي تعمل بنفسها.</>,
+    heroLead: "طالب علوم الحاسوب في ESI سيدي بلعباس، مطور Flutter/Dart ومطور خلفية Node.js، أصمم سير عمل n8n الذي يتعامل مع العمل المتكرر بدلاً مني.",
+    ctaProjects: 'عرض مشاريعي',
+    ctaContact: 'تواصل معي',
+    flowLabel: 'مثال على سير عمل n8n',
+    sectionAbout: 'حول',
+    aboutP1: <><strong>طالب في السنة الثالثة</strong> في المدرسة العليا لعلوم الحاسوب (ESI)، سيدي بلعباس، تخصص هندسة البرمجيات وأنظمة الحاسوب.</>,
+    aboutP2: "أنا مطور واجهة أمامية للجوال (Flutter/Dart) وأقوم أيضًا ببناء واجهات خلفية باستخدام Node.js وExpress وMongoDB. ما أستمتع به أكثر هو أتمتة العمليات باستخدام n8n لربط الخدمات ووكلاء الذكاء الاصطناعي وقواعد البيانات دون كتابة كود متكرر.",
+    aboutP3: "فضولي ومستقل، أتعلم بسرعة وأحب تحويل الفكرة إلى منتج وظيفي، من تصميم الواجهة إلى النشر.",
+    stackTitle: 'المجموعة التقنية',
+    stack: [
+      ['الجوال', 'Flutter, Dart'],
+      ['الخلفية', 'Node.js, Express, MongoDB'],
+      ['الأتمتة', 'n8n, Webhooks, AI Agents'],
+      ['اللغات', 'Python, Java, Dart, Assembly x86'],
+      ['الويب', 'HTML5, CSS3, JavaScript'],
+      ['الأدوات', 'Git, GitHub'],
+    ],
+    sectionProjects: 'المشاريع',
+    projects: [
+      {
+        tag: 'تطبيق جوال · Flutter',
+        title: 'Bahr-Fresh',
+        desc: "تطبيق إدارة الصيد: تتبع الدفعات، الحالات (موافق عليها، قيد الانتظار، مرفوضة، منتهية الصلاحية)، الأرباح الإجمالية، وتوزيع السوق حسب الأنواع. واجهة نظيفة مصممة للاستخدام الميداني السريع.",
+        img: '/assets/bahr-fresh.jpeg',
+      },
+      {
+        tag: 'تطبيق جوال · Flutter',
+        title: 'Zujaj Quran Academy',
+        desc: "نظام إدارة لمدرسة قرآن عبر الإنترنت: مصادقة الطالب/الوالد، واجهة ثلاثية اللغة (EN/FR/AR)، واختصارات للمطور للاختبار السريع.",
+        img: '/assets/quran-academy.jpeg',
+      },
+      {
+        tag: 'أتمتة · n8n',
+        title: 'AI Agent Workflow',
+        desc: "سير عمل n8n يتم تشغيله بواسطة Webhook، متصل بوكيل ذكاء اصطناعي (OpenRouter) مع ذاكرة وأدوات، يستجيب تلقائيًا ويعيد النتيجة عبر Webhook.",
+        img: '/assets/n8n-workflow.jpeg',
+      },
+    ],
+    sectionSkills: 'المهارات',
+    skillGroups: [
+      { title: 'الجوال', items: ['Flutter', 'Dart', 'تكامل الخلفية'] },
+      { title: 'الخلفية', items: ['Node.js', 'Express', 'MongoDB', 'REST API'] },
+      { title: 'الأتمتة', items: ['n8n', 'Webhooks', 'AI Agents', 'Integrations'] },
+      { title: 'الأساسيات', items: ['Python', 'Java', 'Assembly x86', 'Git'] },
+    ],
+    contactTitle: "دعنا نتحدث عن مشروعك",
+    contactLead: "متاح للتدريب، الوظائف المبتدئة، والتعاون في مشاريع الجوال أو الأتمتة.",
+    footer: '— تم البناء باستخدام React',
+  },
 }
 
 function useLang() {
@@ -132,6 +185,7 @@ export default function App() {
           <div className="lang-toggle">
             <button className={lang === 'fr' ? 'active' : ''} onClick={() => setLang('fr')}>FR</button>
             <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
+            <button className={lang === 'ar' ? 'active' : ''} onClick={() => setLang('ar')}>AR</button>
           </div>
         </div>
       </nav>
