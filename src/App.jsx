@@ -11,7 +11,7 @@ const content = {
     flowLabel: 'Exemple de workflow n8n',
     sectionAbout: 'À propos',
     aboutP1: <><strong>3ème année</strong> à l'École Supérieure d'Informatique (ESI) de Sidi Bel Abbès, spécialité Génie Logiciel & Systèmes Informatiques.</>,
-    aboutP2: "Je suis développeur mobile front-end (Flutter/Dart) et je construis aussi des APIs backend avec Node.js, Express et MongoDB. Ce qui me passionne le plus : automatiser des processus avec n8n pour connecter des services, des IA et des bases de données sans écrire de code répétitif.",
+    aboutP2: "Je suis développeur mobile front-end (Flutter/Dart) et je construis aussi des APIs backend avec Node.js, Express et MongoDB. Ce qui me passionne le plus : automatiser des processus avec n8n pour connecter des services et gagner du temps.",
     aboutP3: "Curieux et autonome, j'apprends vite et j'aime transformer une idée en produit fonctionnel, du design de l'interface jusqu'au déploiement.",
     stackTitle: 'Stack',
     stack: [
@@ -27,7 +27,7 @@ const content = {
       {
         tag: 'Application mobile · Flutter',
         title: 'Bahr-Fresh',
-        desc: "Application de gestion de pêche : suivi des lots, statuts (approuvé, en attente, rejeté, expiré), revenus totaux et répartition du marché par espèce. Interface claire pensée pour un usage terrain rapide.",
+        desc: "Application de gestion de pêche : suivi des lots, statuts (approuvé, en attente, rejeté, expiré), revenus totaux et répartition du marché par espèce. Interface claire pensée pour une utilisation rapide sur le terrain.",
         img: '/assets/bahr-fresh.jpeg',
       },
       {
@@ -64,7 +64,7 @@ const content = {
     flowLabel: 'n8n workflow example',
     sectionAbout: 'About',
     aboutP1: <><strong>3rd-year student</strong> at the Higher School of Computer Science (ESI), Sidi Bel Abbès, majoring in Software Engineering & Computer Systems.</>,
-    aboutP2: "I'm a mobile front-end developer (Flutter/Dart) and I also build backend APIs with Node.js, Express and MongoDB. What I enjoy most is automating processes with n8n to connect services, AI agents and databases without repetitive code.",
+    aboutP2: "I'm a mobile front-end developer (Flutter/Dart) and I also build backend APIs with Node.js, Express and MongoDB. What I enjoy most is automating processes with n8n to connect services, integrate tools and save time.",
     aboutP3: "Curious and self-driven, I learn fast and love turning an idea into a working product, from interface design to deployment.",
     stackTitle: 'Stack',
     stack: [
@@ -111,13 +111,13 @@ const content = {
     nav: { about: 'حول', projects: 'المشاريع', skills: 'المهارات', contact: 'اتصل' },
     eyebrow: 'متاح للتدريب / وظيفة مبتدئة',
     heroTitle: <>أقوم ببناء <span className="accent">تطبيقات الجوال</span> و <span className="accent">الأتمتة</span> التي تعمل بنفسها.</>,
-    heroLead: "طالب علوم الحاسوب في ESI سيدي بلعباس، مطور Flutter/Dart ومطور خلفية Node.js، أصمم سير عمل n8n الذي يتعامل مع العمل المتكرر بدلاً مني.",
+    heroLead: "طالب علوم الحاسوب في ESI سيدي بلعباس، مطور Flutter/Dart ومطور خلفية Node.js، أصمم سير عمل n8n الذي يتعامل مع العمل المتكرر نيابة عني.",
     ctaProjects: 'عرض مشاريعي',
     ctaContact: 'تواصل معي',
     flowLabel: 'مثال على سير عمل n8n',
     sectionAbout: 'حول',
     aboutP1: <><strong>طالب في السنة الثالثة</strong> في المدرسة العليا لعلوم الحاسوب (ESI)، سيدي بلعباس، تخصص هندسة البرمجيات وأنظمة الحاسوب.</>,
-    aboutP2: "أنا مطور واجهة أمامية للجوال (Flutter/Dart) وأقوم أيضًا ببناء واجهات خلفية باستخدام Node.js وExpress وMongoDB. ما أستمتع به أكثر هو أتمتة العمليات باستخدام n8n لربط الخدمات ووكلاء الذكاء الاصطناعي وقواعد البيانات دون كتابة كود متكرر.",
+    aboutP2: "أنا مطور واجهة أمامية للجوال (Flutter/Dart) وأقوم أيضًا ببناء واجهات خلفية باستخدام Node.js وExpress وMongoDB. ما أستمتع به أكثر هو أتمتة العمليات باستخدام n8n لربط الخدمات وتوفير الوقت.",
     aboutP3: "فضولي ومستقل، أتعلم بسرعة وأحب تحويل الفكرة إلى منتج وظيفي، من تصميم الواجهة إلى النشر.",
     stackTitle: 'المجموعة التقنية',
     stack: [
@@ -133,7 +133,7 @@ const content = {
       {
         tag: 'تطبيق جوال · Flutter',
         title: 'Bahr-Fresh',
-        desc: "تطبيق إدارة الصيد: تتبع الدفعات، الحالات (موافق عليها، قيد الانتظار، مرفوضة، منتهية الصلاحية)، الأرباح الإجمالية، وتوزيع السوق حسب الأنواع. واجهة نظيفة مصممة للاستخدام الميداني السريع.",
+        desc: "تطبيق إدارة الصيد: تتبع الدفعات، الحالات (موافق عليها، قيد الانتظار، مرفوضة، منتهية الصلاحية)، الإيرادات الإجمالية وتوزيع السوق حسب النوع. واجهة واضحة مصممة للاستخدام السريع في الميدان.",
         img: '/assets/bahr-fresh.jpeg',
       },
       {
@@ -145,7 +145,7 @@ const content = {
       {
         tag: 'أتمتة · n8n',
         title: 'AI Agent Workflow',
-        desc: "سير عمل n8n يتم تشغيله بواسطة Webhook، متصل بوكيل ذكاء اصطناعي (OpenRouter) مع ذاكرة وأدوات، يستجيب تلقائيًا ويعيد النتيجة عبر Webhook.",
+        desc: "سير عمل n8n يتم تشغيله بواسطة Webhook، متصل بوكيل ذكاء اصطناعي (OpenRouter) مع ذاكرة وأدوات، يستجيب تلقائيًا ويعيد النتيجة عبر webhook.",
         img: '/assets/n8n-workflow.jpeg',
       },
     ],
